@@ -1,6 +1,5 @@
 # Mtproto-vpn
-Convert mtproto proxy to vpn
-```markdown
+```
 # Guide to Convert MTProto Proxy to VPN
 
 ## Table of Contents
