@@ -23,6 +23,8 @@ This guide explains how to use the script to convert MTProto proxy to VPN.
 ### 📥 Installation
 ```bash
 git clone https://github.com/hesam-zahiri/Mtproto-vpn.git
+```
+```bash
 chmod +x Mtproto-vpn.sh
 ```
 
@@ -60,15 +62,25 @@ Interactive menu:
 ### Step 1: Install Tools
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install -y python3 python3-pip git redsocks iptables
 ```
 
 ### Step 2: Proxy Setup (Optional)
 ```bash
 git clone https://github.com/alexbers/mtprotoproxy.git
+```
+
+```
 cd mtprotoproxy
+```
+
+```
 pip3 install -r requirements.txt
+```
 python3 mtprotoproxy.py
+```
 ```
 
 ### Step 3: Configure redsocks
