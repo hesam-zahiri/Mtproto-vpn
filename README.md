@@ -78,10 +78,11 @@ cd mtprotoproxy
 
 ```
 pip3 install -r requirements.txt
-```
+
+```bash
 python3 mtprotoproxy.py
 ```
-```
+
 
 ### Step 3: Configure redsocks
 Edit `/etc/redsocks.conf`:
