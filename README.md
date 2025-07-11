@@ -129,7 +129,7 @@ curl --socks5 127.0.0.1:12345 ifconfig.me
 
 ### Non-Root Method with Proxydroid
 1. Convert proxy to SOCKS5:
-- You can use the [MTProto-to-SOCKS](https://github.com/TelegramMessenger/MTProxy-to-SOCKS) script for conversion.
+- You can use the [MTProto-to-SOCKS](https://github.com/hesam-zahiri/mtProto_to_socks5.git) script for conversion.
 
 2. Proxydroid Settings:
 ```
