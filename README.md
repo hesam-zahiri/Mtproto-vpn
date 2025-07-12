@@ -152,3 +152,26 @@ Type: SOCKS5
 
 ## 📧 Contact
 - GitHub: [github.com/hesam-zahiri](https://github.com/hesam-zahiri)
+
+
+
+
+### 🔴 Attention
+- Sure! Here's the English translation of your text in a formal and technical tone:
+MTProto is Telegram’s proprietary protocol.
+It is not a general-purpose proxy like SOCKS or HTTPS.
+This script, when executed, attempts to establish a connection to a server that only understands MTProto — which means it can only tunnel Telegram traffic through it.
+So in this setup, even if we try to route all system traffic through it, nothing except Telegram will work.
+However, there's an alternative approach using what's called “fake MTProto.”
+Some tools can encrypt general traffic in a way that mimics MTProto (primarily to bypass DPI).
+But as the name suggests, it’s not real MTProto.
+It only appears to be MTProto on the surface (like fake TLS), while in the backend, it’s just a regular proxy.
+This is essentially the same technique that tools like Shadowsocks, obfs, etc., use with WebSockets — where neither Telegram nor censorship systems can tell the difference.
+Recently, I came across a project called Telegram SOCKS5 Proxy.
+I haven’t tested it yet, but the developers claim to have wrapped MTProto inside a simplified WARP-style proxy.
+Still, all of these solutions are limited to Telegram usage only — not for routing full system traffic.
+The project is basic and needs further development, but the concept is interesting:
+If we could somehow convert MTProto into a general-purpose proxy like SOCKS5, it could become much more useful.
+However, that’s a highly complex task, because MTProto is an application-specific protocol.
+It wasn’t designed to handle general TCP traffic.
+The only way we could directly tunnel through MTProto would be to write a custom Telegram-like client that can perform authentication, key exchange, etc.
