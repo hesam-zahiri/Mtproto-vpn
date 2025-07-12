@@ -168,7 +168,7 @@ Some tools can encrypt general traffic in a way that mimics MTProto (primarily t
 But as the name suggests, it’s not real MTProto.
 It only appears to be MTProto on the surface (like fake TLS), while in the backend, it’s just a regular proxy.
 This is essentially the same technique that tools like Shadowsocks, obfs, etc., use with WebSockets — where neither Telegram nor censorship systems can tell the difference.
-Recently, I came across a project called Telegram SOCKS5 Proxy.
+Recently, I came across a project called [telegram socks 5 proxy](https://github.com/alexbers/mtprotoproxy).
 I haven’t tested it yet, but the developers claim to have wrapped MTProto inside a simplified WARP-style proxy.
 Still, all of these solutions are limited to Telegram usage only — not for routing full system traffic.
 The project is basic and needs further development, but the concept is interesting:
