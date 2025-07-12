@@ -152,7 +152,6 @@ Type: SOCKS5
 
 ### 🔴 Attention
 ```
-- Sure! Here's the English translation of your text in a formal and technical tone:
 MTProto is Telegram’s proprietary protocol.
 It is not a general-purpose proxy like SOCKS or HTTPS.
 This script, when executed, attempts to establish a connection to a server that only understands MTProto — which means it can only tunnel Telegram traffic through it.
