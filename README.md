@@ -171,7 +171,7 @@ However, that’s a highly complex task, because MTProto is an application-speci
 It wasn’t designed to handle general TCP traffic.
 The only way we could directly tunnel through MTProto would be to write a custom Telegram-like client that can perform authentication, key exchange, etc.
 ```
-- [telegram socks 5 proxy](https://github.com/alexbers/mtprotoproxy)
+- [Telegram socks 5 proxy project link](https://github.com/alexbers/mtprotoproxy)
 
 ---
 
