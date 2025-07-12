@@ -148,6 +148,7 @@ Type: SOCKS5
 - Requires the app to remain active
 - May not be compatible with some apps
 
+---
 
 ### 🔴 Attention
 - Sure! Here's the English translation of your text in a formal and technical tone:
