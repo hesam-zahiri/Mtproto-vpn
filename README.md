@@ -157,6 +157,7 @@ Type: SOCKS5
 
 
 ### 🔴 Attention
+```
 - Sure! Here's the English translation of your text in a formal and technical tone:
 MTProto is Telegram’s proprietary protocol.
 It is not a general-purpose proxy like SOCKS or HTTPS.
@@ -175,3 +176,4 @@ If we could somehow convert MTProto into a general-purpose proxy like SOCKS5, it
 However, that’s a highly complex task, because MTProto is an application-specific protocol.
 It wasn’t designed to handle general TCP traffic.
 The only way we could directly tunnel through MTProto would be to write a custom Telegram-like client that can perform authentication, key exchange, etc.
+```
